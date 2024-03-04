@@ -10,7 +10,7 @@ function TextUpdaterNode({ data }) {
     <>
        <Handle type="target" position={Position.Top} />
       <div>
-        <img alt='asdfasdf' src={viteLogo} />
+        <img width={20} height={20} alt='asdfasdf' src={viteLogo} />
       </div>
       <Handle type="source" position={Position.Bottom} id="a" />
       <Handle
@@ -27,7 +27,7 @@ function Test () {
     <>
       <Handle type="target" position={Position.Top} />
       <div>
-        <img src={react} />
+        <img width={20} height={20} src={react} />
       </div>
       <Handle type="source" position={Position.Bottom} id="a" />
       
@@ -41,8 +41,8 @@ const nodeTypes = {
 };
 const initialNodes = [
   { id: '1',type: "customNode", position: { x: 0, y: 0 }, data: { label: '1' } },
-  { id: '2', type: "TestNode", position: { x: 0, y: 100 }, data: { label: '2' } },
-  { id: '3', type: "customNode", position: { x: 0, y: 200 }, data: { label: '3' } },
+  { id: '2', type: "TestNode", position: { x: 0, y: 50 }, data: { label: '2' } },
+  { id: '3', type: "customNode", position: { x: 0, y: 100 }, data: { label: '3' } },
 ];
 const initialEdges = [{ id: 'e1-2', source: '1', target: '2' },{ id: 'e2-3', source: '2', target: '3' }];
  
@@ -56,28 +56,32 @@ export default function App() {
   );
  
   return (
-    <div style={{ width: '80vw', height: '80vh' }}>
+    <>
       <button onClick={() => {
       setNodes([...nodes, { id: (nodes.length + 1).toString(),
-         type: "customNode", position: { x: 100, y: 100 }, data: { label: '3' } 
+         type: "customNode", position: { x: 100, y: 50 }, data: { label: '3' } 
         }])
     }} >Add vite logo</button>
 
 <button onClick={() => {
       setNodes([...nodes, { id: (nodes.length + 1).toString(),
-         type: "TestNode", position: { x: 100, y: 100 }, data: { label: '3' } 
+         type: "TestNode", position: { x: 100, y: 50 }, data: { label: '3' } 
         }])
     }} >Add react logo</button>
-      <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        fitView
-        proOptions={{hideAttribution: true}}
-        onConnect={onConnect}
-        nodeTypes={nodeTypes}
-      />
-    </div>
+    <div style={{ border: "solid 2px white",width: '40vw', height: '80vh' }}>
+    
+    <ReactFlow
+      nodes={nodes}
+      edges={edges}
+      onNodesChange={onNodesChange}
+      onEdgesChange={onEdgesChange}
+      fitView
+      proOptions={{hideAttribution: true}}
+      onConnect={onConnect}
+      nodeTypes={nodeTypes}
+    />
+  </div>
+    </>
+    
   );
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="480" viewBox="0 0 640 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(7.12 0 0 7.12 7.12 215.51)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="0" y1="-24.0000000218557" x2="0" y2="24.0000000218557" />
+</g>
+<g transform="matrix(7.12 0 0 7.12 371.1 215.02)"  >
+<rect style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-opacity: 0.2; fill-rule: nonzero; opacity: 1;"  x="-29" y="-29" rx="0" ry="0" width="58" height="58" />
+</g>
+<g transform="matrix(7.12 0 0 7.12 86.38 218.7)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-10" y1="0" x2="10" y2="0" />
+</g>
+<g transform="matrix(7.12 0 0 7.12 336.42 201.77)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-10" y1="0" x2="10" y2="0" />
+</g>
+<g transform="matrix(7.12 0 0 7.12 372.98 223.11)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="0" y1="23.0000000218557" x2="0" y2="-23.0000000218557" />
+</g>
+<g transform="matrix(7.12 0 0 7.12 374.63 219.88)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-18, -15.5)" d="M 2.41154 29 L 18 2 L 33.5885 29 H 2.41154 Z" stroke-linecap="round" />
+</g>
+</svg>
